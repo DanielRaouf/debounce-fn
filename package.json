@@ -31,7 +31,7 @@
 		"invoked"
 	],
 	"dependencies": {
-		"mimic-fn": "^3.0.0"
+		"mimic-fn": "github:DanielRaouf/mimic-fn.git#v4.0.0"
 	},
 	"devDependencies": {
 		"ava": "^1.4.1",
