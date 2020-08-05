@@ -41,7 +41,7 @@ module.exports = (inputFunction, options = {}) => {
 		return result;
 	};
 
-	mimicFn(debouncedFunction, inputFunction);
+	mimicFn(debouncedFunction, inputFunction, {ignoreNonConfigurable: true});
 
 	debouncedFunction.cancel = () => {
 		if (timeout) {
